@@ -1,0 +1,7 @@
+organization=ug-software-engineering-i-2021-2
+projectKey=org.example:lab01-recordando-poo-luis-carbajal-c
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.23159
+dashboardUrl=https://sonarcloud.io/dashboard?id=org.example%3Alab01-recordando-poo-luis-carbajal-c
+ceTaskId=AXvIZ1ZoaJreQlDDthc7
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXvIZ1ZoaJreQlDDthc7
