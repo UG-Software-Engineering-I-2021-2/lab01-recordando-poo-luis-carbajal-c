@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="33" passed="33" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-09T22:22:04 COT" name="cs.ing.lab01.VehiculoTest" finished-at="2021-09-09T22:22:05 COT" duration-ms="425">
+    <groups>
+    </groups>
+    <test started-at="2021-09-09T22:22:04 COT" name="Command line test" finished-at="2021-09-09T22:22:05 COT" duration-ms="425">
+      <class name="cs.ing.lab01.VehiculoTest">
+        <test-method signature="StressTest01()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:04 COT" name="StressTest01" finished-at="2021-09-09T22:22:05 COT" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StressTest01 -->
+        <test-method signature="StressTest01()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:04 COT" name="StressTest01" finished-at="2021-09-09T22:22:05 COT" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StressTest01 -->
+        <test-method signature="StressTest01()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:04 COT" name="StressTest01" finished-at="2021-09-09T22:22:05 COT" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StressTest01 -->
+        <test-method signature="StressTest01()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:04 COT" name="StressTest01" finished-at="2021-09-09T22:22:05 COT" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StressTest01 -->
+        <test-method signature="StressTest01()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:04 COT" name="StressTest01" finished-at="2021-09-09T22:22:05 COT" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StressTest01 -->
+        <test-method signature="StressTest01()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:04 COT" name="StressTest01" finished-at="2021-09-09T22:22:05 COT" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StressTest01 -->
+        <test-method signature="StressTest01()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:04 COT" name="StressTest01" finished-at="2021-09-09T22:22:05 COT" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StressTest01 -->
+        <test-method signature="StressTest01()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:04 COT" name="StressTest01" finished-at="2021-09-09T22:22:05 COT" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StressTest01 -->
+        <test-method signature="StressTest01()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:04 COT" name="StressTest01" finished-at="2021-09-09T22:22:05 COT" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StressTest01 -->
+        <test-method signature="StressTest01()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:04 COT" name="StressTest01" finished-at="2021-09-09T22:22:05 COT" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StressTest01 -->
+        <test-method signature="StressTest02()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:05 COT" name="StressTest02" finished-at="2021-09-09T22:22:05 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StressTest02 -->
+        <test-method signature="StressTest02()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:05 COT" name="StressTest02" finished-at="2021-09-09T22:22:05 COT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StressTest02 -->
+        <test-method signature="StressTest02()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:05 COT" name="StressTest02" finished-at="2021-09-09T22:22:05 COT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StressTest02 -->
+        <test-method signature="StressTest02()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:05 COT" name="StressTest02" finished-at="2021-09-09T22:22:05 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StressTest02 -->
+        <test-method signature="StressTest02()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:05 COT" name="StressTest02" finished-at="2021-09-09T22:22:05 COT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StressTest02 -->
+        <test-method signature="StressTest02()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:05 COT" name="StressTest02" finished-at="2021-09-09T22:22:05 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StressTest02 -->
+        <test-method signature="StressTest02()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:05 COT" name="StressTest02" finished-at="2021-09-09T22:22:05 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StressTest02 -->
+        <test-method signature="StressTest02()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:05 COT" name="StressTest02" finished-at="2021-09-09T22:22:05 COT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StressTest02 -->
+        <test-method signature="StressTest02()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:05 COT" name="StressTest02" finished-at="2021-09-09T22:22:05 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StressTest02 -->
+        <test-method signature="StressTest02()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:05 COT" name="StressTest02" finished-at="2021-09-09T22:22:05 COT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StressTest02 -->
+        <test-method signature="TestMain()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:05 COT" name="TestMain" finished-at="2021-09-09T22:22:05 COT" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMain -->
+        <test-method signature="TestRefuel01()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:05 COT" name="TestRefuel01" finished-at="2021-09-09T22:22:05 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestRefuel01 -->
+        <test-method signature="TestRefuel02()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:05 COT" name="TestRefuel02" finished-at="2021-09-09T22:22:05 COT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestRefuel02 -->
+        <test-method signature="TestRefuel03()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:05 COT" name="TestRefuel03" finished-at="2021-09-09T22:22:05 COT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestRefuel03 -->
+        <test-method signature="TestRefuel04()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:05 COT" name="TestRefuel04" finished-at="2021-09-09T22:22:05 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestRefuel04 -->
+        <test-method signature="TestRefuel05()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:05 COT" name="TestRefuel05" finished-at="2021-09-09T22:22:05 COT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestRefuel05 -->
+        <test-method signature="TestRefuel06()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:05 COT" name="TestRefuel06" finished-at="2021-09-09T22:22:05 COT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestRefuel06 -->
+        <test-method signature="TestTrip01()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:05 COT" name="TestTrip01" finished-at="2021-09-09T22:22:05 COT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTrip01 -->
+        <test-method signature="TestTrip02()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:05 COT" name="TestTrip02" finished-at="2021-09-09T22:22:05 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTrip02 -->
+        <test-method signature="TestTrip03()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:05 COT" name="TestTrip03" finished-at="2021-09-09T22:22:05 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTrip03 -->
+        <test-method signature="TestTrip05()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:05 COT" name="TestTrip05" finished-at="2021-09-09T22:22:05 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTrip05 -->
+        <test-method signature="TestTrip04()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:05 COT" name="TestTrip04" finished-at="2021-09-09T22:22:05 COT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTrip04 -->
+        <test-method signature="TestTrip06()[pri:0, instance:cs.ing.lab01.VehiculoTest@13df2a8c]" started-at="2021-09-09T22:22:05 COT" name="TestTrip06" finished-at="2021-09-09T22:22:05 COT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTrip06 -->
+      </class> <!-- cs.ing.lab01.VehiculoTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- cs.ing.lab01.VehiculoTest -->
+</testng-results>

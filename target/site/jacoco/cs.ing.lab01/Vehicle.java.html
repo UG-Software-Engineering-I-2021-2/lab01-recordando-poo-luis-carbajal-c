@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Vehicle.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">lab01-recordando-poo-luis-carbajal-c</a> &gt; <a href="index.source.html" class="el_package">cs.ing.lab01</a> &gt; <span class="el_source">Vehicle.java</span></div><h1>Vehicle.java</h1><pre class="source lang-java linenums">package cs.ing.lab01;
+
+import java.text.DecimalFormat;
+
+public class Vehicle {
+    double quantityOfFuel;
+    double capacityOfFuel;
+<span class="fc" id="L8">    double useByKm = 0;</span>
+
+<span class="fc" id="L10">    protected static DecimalFormat df = new DecimalFormat(&quot;0.00&quot;);</span>
+
+<span class="fc" id="L12">    public Vehicle(double quantityOfFuel, double capacityOfFuel, double useByKm) {</span>
+<span class="fc" id="L13">        this.quantityOfFuel = quantityOfFuel;</span>
+<span class="fc" id="L14">        this.capacityOfFuel = capacityOfFuel;</span>
+<span class="fc" id="L15">        this.useByKm = useByKm;</span>
+<span class="fc" id="L16">    }</span>
+
+<span class="fc" id="L18">    public Vehicle(double quantityOfFuel, double capacityOfFuel) {</span>
+<span class="fc" id="L19">        this.quantityOfFuel = quantityOfFuel;</span>
+<span class="fc" id="L20">        this.capacityOfFuel = capacityOfFuel;</span>
+<span class="fc" id="L21">    }</span>
+
+    public String refuel(double fuel) {
+        // Method for refueling. Implemented differently on each vehicle.
+        String res;
+<span class="fc bfc" id="L26" title="All 2 branches covered.">        if(this.quantityOfFuel +  fuel &gt; this.capacityOfFuel) {</span>
+<span class="fc" id="L27">            res = &quot;Vehiculo no se puede reabastecer el tanque, sobrepasa la capacidad&quot;;</span>
+<span class="fc" id="L28">            return res;</span>
+        }
+<span class="fc" id="L30">        this.quantityOfFuel += fuel;</span>
+<span class="fc" id="L31">        res = &quot;La cantidad de combustible del Vehiculo es: &quot; + df.format(this.quantityOfFuel);</span>
+<span class="fc" id="L32">        return res;</span>
+    }
+
+    public String trip(float kilometers) {
+        // Method for making a trip. Implemented differently on each vehicle.
+<span class="fc" id="L37">        return tripUtil(kilometers, &quot;Vehiculo&quot;);</span>
+    }
+
+    public String tripUtil(float kilometers, String vehicle) {
+        String res;
+<span class="fc bfc" id="L42" title="All 2 branches covered.">        if(this.useByKm * kilometers &gt; this.quantityOfFuel) {</span>
+<span class="fc" id="L43">            res = vehicle + &quot; necesita reabastecimiento de combustible&quot;;</span>
+<span class="fc" id="L44">            return res;</span>
+        }
+
+<span class="fc" id="L47">        this.quantityOfFuel -= this.useByKm * kilometers;</span>
+<span class="fc" id="L48">        res = vehicle + &quot; viajo &quot; + df.format(kilometers) + &quot; km y aun tiene &quot; + df.format(this.quantityOfFuel) + &quot; de combustible&quot;;</span>
+<span class="fc" id="L49">        return res;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>
